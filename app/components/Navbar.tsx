@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import '../app/globals.css'
+import '../globals.css'
 const Navbar = () => {
     return (
         <div className="containerb py-4 flex in-checked: justify-between">
@@ -12,7 +12,7 @@ const Navbar = () => {
                     <li><Link href='/learning'>learning</Link></li>
                 </ul>
 
-                <button className='px-7 pb-3 pt-2 border-2 border-amber-100 rounded-md'>Sign Up</button>
+                <Link href='/signup' className='px-7 pb-3 pt-2 border-[0.3px] border-amber-100 rounded-md'>Sign Up</Link>
             </div>
         </div>
     )

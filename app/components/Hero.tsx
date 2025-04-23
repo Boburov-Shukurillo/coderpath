@@ -42,12 +42,12 @@ const Hero = () => {
             {/* Hero Section */}
             <div
                 ref={heroRef}
-                className="py-20 w-2/3 text-center flex flex-col gap-10"
+                className="py-20 w-9/12 text-center flex flex-col gap-10"
             >
-                <h1 className="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">
+                <h1 className="text-6xl  font-extrabold mb-6 tracking-wide leading-tight md:leading-snug text-white">
                     Unlock Your Full Potential – Your Journey to Mastery Starts Here!
                 </h1>
-                <p className="text-gray-300 text-lg mb-8">
+                <p className="w-full text-gray-300 text-lg mb-8 leading-relaxed md:leading-loose  mx-auto">
                     Ready to take your skills to the next level? You’re just a few clicks away from conquering HTML, CSS, and JavaScript like a pro.
 
                     💡 Why settle for average when you can be extraordinary? Start now and discover your hidden talents with our fun, interactive quizzes.
@@ -56,14 +56,15 @@ const Hero = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <button className="bg-white/10 border border-white/20 px-6 py-3 rounded-lg backdrop-blur-sm text-white font-medium shadow-md hover:shadow-xl transition-all hover:bg-white/20">
+                    <button className="bg-white/10 border border-white/20 px-6 py-3 rounded-lg backdrop-blur-sm text-white font-medium shadow-md hover:shadow-xl transition-all hover:bg-white/20 leading-snug">
                         🚀 Start Quiz
                     </button>
-                    <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg shadow-lg font-semibold hover:opacity-90 transition-all">
+                    <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-lg shadow-lg font-semibold hover:opacity-90 transition-all leading-snug">
                         ✨ Explore Features
                     </button>
                 </div>
             </div>
+
 
             {/* Cards Section */}
             <div className="flex flex-col md:flex-row gap-8 justify-center items-center p-6">
